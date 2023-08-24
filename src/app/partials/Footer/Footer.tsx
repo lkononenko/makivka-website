@@ -5,7 +5,7 @@ export const Footer: FC = () => {
   return (
     <footer className="footer footer-center p-8 text-base-content gap-y-5">
       <Image
-        src="/makivka-icon.png"
+        src="/makivka-icon.jpeg"
         alt="Makivka"
         width={60}
         height={60}

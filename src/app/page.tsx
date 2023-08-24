@@ -15,7 +15,7 @@ export default function Home() {
       <main className="text-center">
         <Section bgColor="bg-primary" id="about-us">
           <AnimatedTitle>About us</AnimatedTitle>
-            <div className="py-2 pb-8 text-base-100 flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+            <div className="py-2 md:pb-6 text-base-100 flex flex-col md:flex-row gap-8 md:gap-16 items-center">
               <div className="w-full md:basis-1/2">
                 <Image
                   src="/images/about-us.jpeg"

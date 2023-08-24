@@ -12,9 +12,9 @@ export const Footer: FC = () => {
       />
       <div className="grid grid-flow-col gap-4">
         <a className="link link-hover" href="#about-us">About us</a> 
-        <a className="link link-hover">Contact</a> 
-        <a className="link link-hover">Agenda</a> 
-        <a className="link link-hover">Team</a>
+        <a className="link link-hover" href="#contact-us">Contact</a> 
+        <a className="link link-hover" href="#agenda">Agenda</a> 
+        <a className="link link-hover" href="#team">Team</a>
       </div> 
       <div>
         <p className="font-light">All right reserved by Makivka &copy; 2023</p>

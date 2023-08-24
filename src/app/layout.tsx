@@ -9,7 +9,7 @@ const fontMain = Roboto({
   variable: '--font-main',
 })
 
-export const fontCursive = Dancing_Script({
+const fontCursive = Dancing_Script({
   weight: ['400', '700'],
   display: 'swap',
   subsets: ['latin'],

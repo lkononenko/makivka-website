@@ -1,9 +1,3 @@
-'use client';
-
-// import { Button } from '../../components/Button';
-
-// import styles from './header.module.scss';
-
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { FC } from 'react';

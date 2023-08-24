@@ -3,6 +3,7 @@ import { Header } from './partials/Header/Header'
 import { Hero } from './components/Hero/Hero'
 import { AnimatedTitle } from './components/AnimatedTitle/AnimatedTitle'
 import { Section } from './components/Section/Section'
+import { Team } from './partials/Team/Team'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <main className="text-center">
         <Section bgColor="bg-primary" id="about-us">
           <AnimatedTitle>About us</AnimatedTitle>
-            <div className="py-4 md:py-8 text-base-100 flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+            <div className="py-2 pb-8 text-base-100 flex flex-col md:flex-row gap-8 md:gap-16 items-center">
               <div className="w-full md:basis-1/2">
                 <Image
                   src="/images/about-us.jpeg"
@@ -134,6 +135,7 @@ export default function Home() {
         </Section>
         <Section bgColor="bg-accent" id="team">
           <AnimatedTitle>Our Team</AnimatedTitle>
+          <Team />
         </Section>
         <Section bgColor="bg-secondary" id="contact-us">
           <AnimatedTitle>Contact Us</AnimatedTitle>

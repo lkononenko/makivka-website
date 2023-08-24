@@ -8,7 +8,7 @@ export const Footer: FC = () => {
         src="/makivka-icon.png"
         alt="Makivka"
         width={60}
-        height={57}
+        height={60}
       />
       <div className="grid grid-flow-col gap-4">
         <a className="link link-hover" href="#about-us">About us</a> 

@@ -1,113 +1,163 @@
 import Image from 'next/image'
+import { Header } from './partials/Header/Header'
+import { Hero } from './components/Hero/Hero'
+import { AnimatedTitle } from './components/AnimatedTitle/AnimatedTitle'
+import { Section } from './components/Section/Section'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <>
+      <div className="mx-auto max-w-screen-2xl px-4 md:px-8 py-2">
+        <Header />
+        <Hero />
       </div>
+      <main className="text-center">
+        <Section bgColor="bg-primary" id="about-us">
+          <AnimatedTitle>About us</AnimatedTitle>
+            <div className="py-4 md:py-8 text-base-100 flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+              <div className="w-full md:basis-1/2">
+                <Image
+                  src="/images/about-us.jpeg"
+                  alt="Concert of Makivka"
+                  width={480}
+                  height={368}
+                  // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  sizes="100vw"
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
+                  priority
+                  className="rounded-lg"
+                />
+              </div>
+              <div className="w-full sm:text-lg lg:text-xl text-left font-light md:basis-1/2">
+                <p>
+                  Makivka is a young folk ensemble from Amsterdam that brings traditional Ukrainian polyphony to the Netherlands. The repertoire of our ensemble is extensive - traditional carol songs, spring, summer and harvest chants, lyric and spiritual compositions of Ukrainian composers.
+                </p>
+                <p>
+                  Makivka opens the door for you to the rich Ukrainian culture. With our performances we are also committed to help Ukraine - our profits proceed to cover the needs of Ukrainian refugees and army to make our contribution in bringing peace to our land. 
+                </p>
+              </div>
+            </div>
+        </Section>
+        <Section bgColor="bg-secondary" id="agenda">
+          <AnimatedTitle>Upcoming Concerts</AnimatedTitle>
+          <div className="max-w-screen-md mx-auto flex flex-col sm:flex-row items-center gap-4 justify-between my-10">
+            <div className="text-center font-thin flex sm:flex-col items-end sm:items-center sm:basis-1/4">
+              <span className="text-4xl md:text-6xl text-primary mr-3 sm:mr-0">24</span>
+              <span className="text-2xl md:text-lg text-white mb-[2px]">August</span>
+            </div>
+            <div className="text-white text-center sm:text-left font-thin sm:basis-1/2">
+              <p className="text-lg font-light">Manifestation on Independence Day of Ukraine</p>
+              <div className="flex items-center gap-2 mb-2 sm:mb-4 justify-center sm:justify-normal">
+                <Image
+                  src={`/icons/location.svg`}
+                  alt="Instagram"
+                  width="25"
+                  height="25"
+                />
+                <span>Amsterdam, Dam Square</span>
+              </div>
+              <span>18:00 –20:00</span>
+            </div>
+            <div className="sm:basis-1/4">
+              <a
+                href="https://www.instagram.com/p/CwAuPXWtUkw/"
+                className="btn btn-primary h-10 min-h-0"
+                target="_blank"
+              >Learn More</a>
+            </div>
+          </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+          <div className="max-w-screen-md mx-auto flex flex-col sm:flex-row items-center gap-4 justify-between my-10">
+            <div className="text-center font-thin flex sm:flex-col items-end sm:items-center sm:basis-1/4">
+              <span className="text-4xl md:text-6xl text-primary mr-3 sm:mr-0">10</span>
+              <span className="text-2xl md:text-lg text-white mb-[2px]">September</span>
+            </div>
+            <div className="text-white text-center sm:text-left font-thin sm:basis-1/2">
+              <p className="text-lg font-light">Korenlint</p>
+              <div className="flex items-center gap-2 mb-2 sm:mb-4 justify-center sm:justify-normal">
+                <Image
+                  src={`/icons/location.svg`}
+                  alt="Instagram"
+                  width="25"
+                  height="25"
+                />
+                <span>Haarlem</span>
+              </div>
+              <div>
+                <span className="pr-2">14:00 - 14:20</span> <span>Waalse Kerk - Begijnhof 30</span>
+              </div>
+              <div>
+                <span className="pr-2">15:15 - 15:45</span> <span>HEMA - Grote Houtstraat 70</span>
+              </div>
+            </div>
+            <div className="sm:basis-1/4">
+              <a
+                href="https://www.korenlint.nl/profiel/makivka"
+                className="btn btn-primary h-10 min-h-0"
+                target="_blank"
+              >Learn More</a>
+            </div>
+          </div>
+          {/* <div className="card lg:card-side bg-base-100 shadow-xl max-w-screen-md mx-auto">
+            <figure>
+              <Image
+                src="/images/about-us.jpeg"
+                alt="Concert of Makivka"
+                width={300}
+                height={368}
+              />
+            </figure>
+            <div className="card-body">
+              <h3 className="card-title">Korenlint</h3>
+              <p>10 September 2023</p>
+              
+              <p>Haarlem</p>
+              
+              14:00 - 14:20 uur
+              Waalse Kerk
+              Begijnhof 30
+              15:15 - 15:45 uur
+              HEMA (kelder)
+              Grote Houtstraat 70
+              <div className="card-actions justify-end">
+                <a
+                  href="https://www.korenlint.nl/profiel/makivka"
+                  className="btn btn-primary"
+                  target="_blank"
+                >Learn More</a>
+              </div>
+            </div>
+          </div> */}
+        </Section>
+        <Section bgColor="bg-accent" id="team">
+          <AnimatedTitle>Our Team</AnimatedTitle>
+        </Section>
+        <Section bgColor="bg-secondary" id="contact-us">
+          <AnimatedTitle>Contact Us</AnimatedTitle>
+          <div className="text-white">
+            {/* <Image
+              src={`/icons/gmail.svg`}
+              alt="Gmail"
+              width="25"
+              height="25"
+            /> */}
+            <p><span className="text-primary font-light">Email:</span> <a href="mailto:makivka.amsterdam@gmail.com" target="_blank">makivka.amsterdam@gmail.com</a></p>
+            <p><span className="text-primary font-light">Instagram:</span> <a href="https://www.instagram.com/makivka_amsterdam/" target='_blank'>makivka_amsterdam</a></p>
+          </div>
+        </Section>
+        {/* <Section bgColor="bg-accent">
+          <button className="btn">Button</button>
+          <button className="btn btn-neutral">Neutral</button>
+          <button className="btn btn-primary">Primary</button>
+          <button className="btn btn-secondary">Secondary</button>
+          <button className="btn btn-accent">Accent</button>
+          <button className="btn btn-ghost">Ghost</button>
+          <button className="btn btn-link">Link</button>
+        </Section> */}
+      </main>
+    </>
   )
 }

@@ -4,24 +4,46 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+}
+
+h1 {
+  font-family: var(--font-cursive);
+  font-size: 2.5rem;
+  line-height: 3.2rem;
+  margin: 1rem 0;
+
+  @media (min-width: 640px) {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+}
+h2 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 100;
+  /* text-transform: uppercase; */
+  margin: 1rem 0;
+  color: hsl(var(--b1));
+
+  @media (min-width: 640px) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+p {
+  margin-bottom: 1rem;
+  font-weight: 100;
+}
+.btn {
+  font-weight: 300;
 }

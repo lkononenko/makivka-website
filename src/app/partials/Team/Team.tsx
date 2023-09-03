@@ -17,12 +17,6 @@ const teamMembers = [
     instagram: 'm.malytska',
   },
   {
-    image: 'anastasia.jpeg',
-    name: 'Anastasia Maievska',
-    desc: 'Soprano',
-    instagram: 'maievskaanastasia',
-  },
-  {
     image: 'sasha.jpeg',
     name: 'Sashko Kulykova',
     desc: 'Soprano',

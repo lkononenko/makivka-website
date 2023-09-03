@@ -23,7 +23,7 @@ export const Hero: FC = () => {
     >
       <h1>Ukrainian Ensemble «Makivka»</h1>
       <p className="font-cursive text-3xl md:text-4xl">
-        11 amazing women&apos;s voices
+        10 amazing women&apos;s voices
       </p>
     </motion.div>
   );

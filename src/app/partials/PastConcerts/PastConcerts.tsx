@@ -14,6 +14,7 @@ const pastConcerts = [
     month: 'June 2023',
     title: 'Green Week SVOI, Ukrainian summer festival',
     location: 'Amsterdam, Oranjekerk',
+    infoLink: 'https://www.instagram.com/p/Csoc2getuEM/'
   },
   {
     date: '16',

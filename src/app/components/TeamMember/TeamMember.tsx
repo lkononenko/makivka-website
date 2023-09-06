@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react';
 
-export interface ITeamMember {
+export interface TeamItem {
   name: string;
   image: string;
   desc: string;
@@ -13,7 +13,7 @@ export const TeamMember = ({
   name,
   desc,
   instagram
-}: ITeamMember): JSX.Element => {
+}: TeamItem): JSX.Element => {
 
   return (
     <div className="text-center text-white">

@@ -4,6 +4,7 @@ import { Hero } from './components/Hero/Hero'
 import { AnimatedTitle } from './components/AnimatedTitle/AnimatedTitle'
 import { Section } from './components/Section/Section'
 import { Team } from './partials/Team/Team'
+import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 export default function Home() {
   return (
@@ -75,33 +76,8 @@ export default function Home() {
               >Learn More</a>
             </div>
           </div>
-          <h2>Recent Concerts</h2>
-          <div className="max-w-screen-md mx-auto flex flex-col sm:flex-row items-center gap-4 justify-between my-10">
-            <div className="text-center font-thin flex sm:flex-col items-end sm:items-center sm:basis-1/4">
-              <span className="text-4xl md:text-6xl text-primary mr-3 sm:mr-0">24</span>
-              <span className="text-2xl md:text-lg text-white mb-[2px]">August</span>
-            </div>
-            <div className="text-white text-center sm:text-left font-thin sm:basis-1/2">
-              <p className="text-lg font-light">Manifestation on Independence Day of Ukraine</p>
-              <div className="flex items-center gap-2 mb-2 sm:mb-4 justify-center sm:justify-normal">
-                <Image
-                  src={`/icons/location.svg`}
-                  alt="Instagram"
-                  width="25"
-                  height="25"
-                />
-                <span>Amsterdam, Dam Square</span>
-              </div>
-              <span>18:00 –20:00</span>
-            </div>
-            <div className="sm:basis-1/4">
-              <a
-                href="https://www.instagram.com/p/CwAuPXWtUkw/"
-                className="btn btn-primary h-10 min-h-0"
-                target="_blank"
-              >Learn More</a>
-            </div>
-          </div>
+          <h3>Past Concerts</h3>
+          <PastConcerts />
         </Section>
         <Section bgColor="bg-accent" id="team">
           <AnimatedTitle>Our Team</AnimatedTitle>

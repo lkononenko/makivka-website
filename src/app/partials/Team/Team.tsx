@@ -1,7 +1,5 @@
-import { TeamMember, ITeamMember } from '@/app/components/TeamMember/TeamMember';
+import { TeamMember, TeamItem } from '@/app/components/TeamMember/TeamMember';
 import React, { FC } from 'react';
-
-
 
 const teamMembers = [
   {
@@ -68,7 +66,7 @@ const teamMembers = [
 export const Team: FC = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
-      {teamMembers.map((member: ITeamMember, index: number) => (
+      {teamMembers.map((member: TeamItem, index: number) => (
         <TeamMember
           key={index}
           image={member.image}

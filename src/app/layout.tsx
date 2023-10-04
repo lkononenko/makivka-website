@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto, Dancing_Script} from 'next/font/google'
 import { Footer } from './partials/Footer/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 const fontMain = Roboto({
   weight: ['100', '300', '400', '700'],
@@ -31,6 +32,7 @@ export default function RootLayout({
       <body className={`${fontMain.className} ${fontCursive.variable}`}>
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   )

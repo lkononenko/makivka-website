@@ -4,7 +4,19 @@ import { Hero } from './components/Hero/Hero'
 import { AnimatedTitle } from './components/AnimatedTitle/AnimatedTitle'
 import { Section } from './components/Section/Section'
 import { Team } from './partials/Team/Team'
+import { AgendaItem, IAgendaItem } from './components/AgendaItem/AgendaItem'
 import { PastConcerts } from './partials/PastConcerts/PastConcerts'
+
+const upcomingConcerts = [
+  {
+    date: '3',
+    month: 'December 2023',
+    title: 'Christmas with Makivka',
+    location: 'Haarlem',
+    time: 'Start: 13.00 (Open Doors: 12.30)',
+    infoLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfY2ZOmUiqKJVHIgHN2XiHYIhLMS3I1qpV8Xddj-gOrUfCeQQ/viewform'
+  },
+];
 
 export default function Home() {
   return (
@@ -45,36 +57,18 @@ export default function Home() {
         </Section>
         <Section bgColor="bg-secondary" id="agenda">
           <AnimatedTitle>Upcoming Concerts</AnimatedTitle>
-          <div className="max-w-screen-md mx-auto flex flex-col sm:flex-row items-center gap-4 justify-between my-10">
-            <div className="text-center font-thin flex sm:flex-col items-end sm:items-center sm:basis-1/4">
-              <span className="text-4xl md:text-6xl text-primary mr-3 sm:mr-0">10</span>
-              <span className="text-2xl md:text-lg text-white mb-[2px]">September</span>
-            </div>
-            <div className="text-white text-center sm:text-left font-thin sm:basis-1/2">
-              <p className="text-lg font-light">Korenlint</p>
-              <div className="flex items-center gap-2 mb-2 sm:mb-4 justify-center sm:justify-normal">
-                <Image
-                  src={`/icons/location.svg`}
-                  alt="Instagram"
-                  width="25"
-                  height="25"
-                />
-                <span>Haarlem</span>
-              </div>
-              <div>
-                <span className="pr-2">14:00 - 14:20</span> <span>Waalse Kerk - Begijnhof 30</span>
-              </div>
-              <div>
-                <span className="pr-2">15:15 - 15:45</span> <span>RASOM - Gierstraat 5 (HEMA kelder)</span>
-              </div>
-            </div>
-            <div className="sm:basis-1/4">
-              <a
-                href="https://www.korenlint.nl/profiel/makivka"
-                className="btn btn-primary h-10 min-h-0"
-                target="_blank"
-              >Learn More</a>
-            </div>
+          <div className='mb-12'>
+            {upcomingConcerts.map((concert: IAgendaItem, index: number) => (
+              <AgendaItem
+                key={index}
+                date={concert.date}
+                month={concert.month}
+                title={concert.title}
+                location={concert.location}
+                time={concert.time}
+                infoLink={concert.infoLink ? concert.infoLink : undefined}
+              />
+            ))}
           </div>
           <h3>Past Concerts</h3>
           <PastConcerts />

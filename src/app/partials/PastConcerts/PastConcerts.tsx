@@ -3,6 +3,13 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '10',
+    month: 'September 2023',
+    title: 'Korenlint',
+    location: 'Haarlem',
+    infoLink: 'https://www.korenlint.nl/profiel/makivka'
+  },
+  {
     date: '24',
     month: 'August 2023',
     title: 'Manifestation on Independence Day of Ukraine',
@@ -67,7 +74,7 @@ const pastConcerts = [
 ]
 export const PastConcerts: FC = () => {
   return (
-    <>
+    <div className="opacity-50">
       {pastConcerts.map((concert: IAgendaItem, index: number) => (
         <AgendaItem
           key={index}
@@ -79,6 +86,6 @@ export const PastConcerts: FC = () => {
           infoLink={concert.infoLink ? concert.infoLink : undefined}
         />
       ))}
-    </>
+    </div>
   );
 };

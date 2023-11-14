@@ -70,7 +70,7 @@ export default function Home() {
               />
             ))}
           </div>
-          <h3>Past Concerts</h3>
+          <AnimatedTitle>Past Concerts</AnimatedTitle>
           <PastConcerts />
         </Section>
         <Section bgColor="bg-accent" id="team">

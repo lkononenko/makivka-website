@@ -91,7 +91,7 @@ export const PastConcerts: FC = () => {
           infoLink={concert.infoLink ? concert.infoLink : undefined}
         />
       ))}
-      <button className="btn btn-accent" onClick={() => setShowMore(!showMore)}>
+      <button className="btn btn-accent mb-6" onClick={() => setShowMore(!showMore)}>
         <svg
           className={`w-4 h-4 text-white ${showMore ? 'rotate-180' : ''}`}
           aria-hidden="true" xmlns="http://www.w3.org/2000/svg"

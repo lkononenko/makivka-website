@@ -1,3 +1,5 @@
+'use client';
+
 import { AgendaItem, IAgendaItem } from '@/app/components/AgendaItem/AgendaItem';
 import React, { FC } from 'react';
 
@@ -73,9 +75,12 @@ const pastConcerts = [
   },
 ]
 export const PastConcerts: FC = () => {
+  const [showMore, setShowMore] = React.useState<boolean>(false);
+  const concerts = showMore ? pastConcerts : pastConcerts.slice(0, 3);
+
   return (
-    <div className="opacity-50">
-      {pastConcerts.map((concert: IAgendaItem, index: number) => (
+    <div className="opacity-60">
+      {concerts.map((concert: IAgendaItem, index: number) => (
         <AgendaItem
           key={index}
           date={concert.date}
@@ -86,6 +91,17 @@ export const PastConcerts: FC = () => {
           infoLink={concert.infoLink ? concert.infoLink : undefined}
         />
       ))}
+      <button className="btn btn-accent mb-6" onClick={() => setShowMore(!showMore)}>
+        <svg
+          className={`w-4 h-4 text-white ${showMore ? 'rotate-180' : ''}`}
+          aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 14 8"
+        >
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"/>
+        </svg>
+        {showMore ? 'Show less' : 'Show more'}
+      </button>
     </div>
   );
 };

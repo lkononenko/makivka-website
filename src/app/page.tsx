@@ -12,7 +12,7 @@ const upcomingConcerts = [
     date: '3',
     month: 'December 2023',
     title: 'Christmas with Makivka',
-    location: 'Haarlem',
+    location: 'Amsterdam, Zuiderkerk',
     time: 'Start: 13.00 (Open Doors: 12.30)',
     infoLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfY2ZOmUiqKJVHIgHN2XiHYIhLMS3I1qpV8Xddj-gOrUfCeQQ/viewform'
   },
@@ -70,7 +70,7 @@ export default function Home() {
               />
             ))}
           </div>
-          <h3>Past Concerts</h3>
+          <AnimatedTitle>Past Concerts</AnimatedTitle>
           <PastConcerts />
         </Section>
         <Section bgColor="bg-accent" id="team">

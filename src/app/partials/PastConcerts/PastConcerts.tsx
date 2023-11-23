@@ -79,18 +79,20 @@ export const PastConcerts: FC = () => {
   const concerts = showMore ? pastConcerts : pastConcerts.slice(0, 3);
 
   return (
-    <div className="opacity-60">
-      {concerts.map((concert: IAgendaItem, index: number) => (
-        <AgendaItem
-          key={index}
-          date={concert.date}
-          month={concert.month}
-          title={concert.title}
-          location={concert.location}
-          time={concert.time}
-          infoLink={concert.infoLink ? concert.infoLink : undefined}
-        />
-      ))}
+    <>
+      <div className="opacity-60">
+        {concerts.map((concert: IAgendaItem, index: number) => (
+          <AgendaItem
+            key={index}
+            date={concert.date}
+            month={concert.month}
+            title={concert.title}
+            location={concert.location}
+            time={concert.time}
+            infoLink={concert.infoLink ? concert.infoLink : undefined}
+          />
+        ))}
+      </div>
       <button className="btn btn-accent mb-6" onClick={() => setShowMore(!showMore)}>
         <svg
           className={`w-4 h-4 text-white ${showMore ? 'rotate-180' : ''}`}
@@ -98,10 +100,10 @@ export const PastConcerts: FC = () => {
           fill="none"
           viewBox="0 0 14 8"
         >
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"/>
+          <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1" d="m1 1 5.326 5.7a.909.909 0 0 0 1.348 0L13 1"/>
         </svg>
         {showMore ? 'Show less' : 'Show more'}
       </button>
-    </div>
+    </>
   );
 };

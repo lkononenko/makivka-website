@@ -20,7 +20,7 @@ export const AgendaItem = ({
 }: IAgendaItem): JSX.Element => {
 
   return (
-    <div className="max-w-screen-md mx-auto flex flex-col sm:flex-row items-center gap-4 justify-between my-8">
+    <div className="max-w-screen-md mx-auto flex flex-col sm:flex-row items-center gap-4 justify-between py-10 border-b border-accent border-solid last:border-b-0">
       <div className="text-center font-thin flex sm:flex-col items-end sm:items-center sm:basis-1/4">
         <span className="text-4xl md:text-6xl text-primary mr-3 sm:mr-0">{ date }</span>
         <span className="text-2xl md:text-lg text-white mb-[2px]">{ month }</span>

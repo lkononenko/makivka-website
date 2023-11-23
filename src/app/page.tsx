@@ -16,6 +16,33 @@ const upcomingConcerts = [
     time: 'Start: 13.00 (Open Doors: 12.30)',
     infoLink: 'https://docs.google.com/forms/d/e/1FAIpQLSfY2ZOmUiqKJVHIgHN2XiHYIhLMS3I1qpV8Xddj-gOrUfCeQQ/viewform'
   },
+  {
+    date: '7',
+    month: 'December 2023',
+    title: 'Ministry of Justice and Security',
+    location: 'Internal event (private performance)',
+  },
+  {
+    date: '17',
+    month: 'December 2023',
+    title: 'Ukrainian Christmas',
+    location: 'Nijmegen (more info coming soon)',
+    time: 'Start: 14.30',
+  },
+  {
+    date: '7',
+    month: 'January 2024',
+    title: 'Oekraïense Kerst met Makivka',
+    location: 'Spaarndam, Oudekerk (Kerkplein 2)',
+    time: 'Start: 16.00 (Open Doors: 15.30)',
+    infoLink: 'https://www.vriendenoudekerk.nl/events/makivka-oekraiens-amsterdams-volksensemble/'
+  },
+  {
+    date: '14',
+    month: 'January 2024',
+    title: 'Malanka',
+    location: 'More info coming soon',
+  },
 ];
 
 export default function Home() {

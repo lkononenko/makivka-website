@@ -20,7 +20,7 @@ const upcomingConcerts = [
     date: '7',
     month: 'December 2023',
     title: 'Ministry of Justice and Security',
-    location: 'Internal event (private performance)',
+    location: 'Internal event',
   },
   {
     date: '17',

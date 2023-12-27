@@ -9,7 +9,6 @@ const pastConcerts = [
     month: 'December 2023',
     title: 'Ukrainian Christmas',
     location: 'Nijmegen',
-    time: 'Start: 14.30',
   },
   {
     date: '7',

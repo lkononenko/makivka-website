@@ -5,6 +5,14 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '7',
+    month: 'January 2024',
+    title: 'Oekraïense Kerst met Makivka',
+    location: 'Spaarndam, Oudekerk (Kerkplein 2)',
+    time: 'Start: 16.00 (Open Doors: 15.30)',
+    infoLink: 'https://www.vriendenoudekerk.nl/events/makivka-oekraiens-amsterdams-volksensemble/'
+  },
+  {
     date: '17',
     month: 'December 2023',
     title: 'Ukrainian Christmas',

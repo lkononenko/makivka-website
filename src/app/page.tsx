@@ -9,14 +9,6 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '7',
-    month: 'January 2024',
-    title: 'Oekraïense Kerst met Makivka',
-    location: 'Spaarndam, Oudekerk (Kerkplein 2)',
-    time: 'Start: 16.00 (Open Doors: 15.30)',
-    infoLink: 'https://www.vriendenoudekerk.nl/events/makivka-oekraiens-amsterdams-volksensemble/'
-  },
-  {
     date: '14',
     month: 'January 2024',
     title: 'Malanka',

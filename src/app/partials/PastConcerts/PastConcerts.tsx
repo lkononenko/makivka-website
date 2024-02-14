@@ -5,6 +5,14 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '14',
+    month: 'January 2024',
+    title: 'Malanka',
+    location: 'Amsterdam, Oranjekerk',
+    time: '17:00 - 22:00',
+    infoLink: 'https://www.instagram.com/p/C1Rb2UJtkyJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+  },
+  {
     date: '7',
     month: 'January 2024',
     title: 'Oekraïense Kerst met Makivka',

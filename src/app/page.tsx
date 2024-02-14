@@ -11,7 +11,7 @@ const upcomingConcerts = [
   {
     date: '24',
     month: 'February',
-    title: '2 years of war',
+    title: 'Stand with Ukraine',
     location: 'Zaandam, Oekraïense Club (Rozengracht 6-8)',
     time: 'Time: 18:00',
     infoLink: 'https://www.instagram.com/p/C3KNtSftpWC/'

@@ -9,20 +9,30 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '7',
-    month: 'January 2024',
-    title: 'Oekraïense Kerst met Makivka',
-    location: 'Spaarndam, Oudekerk (Kerkplein 2)',
-    time: 'Start: 16.00 (Open Doors: 15.30)',
-    infoLink: 'https://www.vriendenoudekerk.nl/events/makivka-oekraiens-amsterdams-volksensemble/'
+    date: '24',
+    month: 'February',
+    title: '2 years of war',
+    location: 'Zaandam, Oekraïense Club (Rozengracht 6-8)',
+    time: 'Time: 18:00',
+    infoLink: 'https://www.instagram.com/p/C3KNtSftpWC/'
   },
   {
-    date: '14',
-    month: 'January 2024',
-    title: 'Malanka',
-    location: 'Amsterdam, Oranjekerk',
-    time: '17:00 - 22:00',
-    infoLink: 'https://www.instagram.com/p/C1Rb2UJtkyJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='
+    date: '1',
+    month: 'April',
+    title: 'Oekraïense Passen',
+    location: 'Spaarndam, Oude Kerk (Kerkplein 1)',
+    time: 'Start: 16.00, Open Doors: 15.30',
+    desc: 'Tickets: SOON',
+    infoLink: ''
+  },
+  {
+    date: '5',
+    month: 'May',
+    title: 'Ukrainian Easter with Makivka',
+    location: 'Amsterdam, Zuiderkerk (Zuiderkerkhof 72)',
+    time: 'Start: 14.00, Open Doors: 13.30',
+    desc: 'Tickets: SOON',
+    infoLink: ''
   },
 ];
 
@@ -36,14 +46,13 @@ export default function Home() {
       <main className="text-center">
         <Section bgColor="bg-primary" id="about-us">
           <AnimatedTitle>About us</AnimatedTitle>
-            <div className="py-2 md:pb-6 text-base-100 flex flex-col md:flex-row gap-8 md:gap-16 items-center">
+            <div className="py-2 md:pb-6 text-base-100 flex flex-col lg:flex-row gap-8 lg:gap-16 items-center">
               <div className="w-full md:basis-1/2">
                 <Image
-                  src="/images/about-us.jpeg"
+                  src="/images/about-us.JPG"
                   alt="Concert of Makivka"
-                  width={480}
-                  height={368}
-                  // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  width={612}
+                  height={375}
                   sizes="100vw"
                   style={{
                     width: '100%',
@@ -74,6 +83,7 @@ export default function Home() {
                 title={concert.title}
                 location={concert.location}
                 time={concert.time}
+                desc={concert.desc}
                 infoLink={concert.infoLink ? concert.infoLink : undefined}
               />
             ))}

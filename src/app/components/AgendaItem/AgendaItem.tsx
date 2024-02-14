@@ -7,6 +7,7 @@ export interface IAgendaItem {
   title: string;
   location: string;
   time?: string;
+  desc?: string;
   infoLink?: string;
 }
 
@@ -16,6 +17,7 @@ export const AgendaItem = ({
   title,
   location,
   time,
+  desc,
   infoLink
 }: IAgendaItem): JSX.Element => {
 
@@ -37,7 +39,10 @@ export const AgendaItem = ({
           <span>{ location }</span>
         </div>
         {
-          time && <span>{ time }</span>
+          time && <p>{ time }</p>
+        }
+        {
+          desc && <p>{ desc }</p>
         }
       </div>
       <div className="sm:basis-1/4">

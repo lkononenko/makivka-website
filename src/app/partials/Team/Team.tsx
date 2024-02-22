@@ -21,6 +21,12 @@ const teamMembers = [
     instagram: 'kuleksander',
   },
   {
+    image: 'vika.jpeg',
+    name: 'Viktoria Homenko',
+    desc: 'Soprano',
+    instagram: '_cherry____pie_',
+  },
+  {
     image: 'maria.jpeg',
     name: 'Maria Prosviryakova-Katzir',
     desc: 'Mezzo-soprano',

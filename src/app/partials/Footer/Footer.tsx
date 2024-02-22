@@ -17,7 +17,7 @@ export const Footer: FC = () => {
         <a className="link link-hover" href="#team">Team</a>
       </div> 
       <div>
-        <p className="font-light">All right reserved by Makivka &copy; 2023</p>
+        <p className="font-light">All right reserved by Makivka &copy; 2024</p>
       </div>
       {/* <div>
         <div className="grid grid-flow-col gap-4">

@@ -22,7 +22,7 @@ const teamMembers = [
   },
   {
     image: 'vika.jpeg',
-    name: 'Viktoria Homenko',
+    name: 'Viktoriia Khomenko',
     desc: 'Soprano',
     instagram: '_cherry____pie_',
   },

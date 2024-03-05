@@ -5,6 +5,14 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '24',
+    month: 'February',
+    title: 'Stand with Ukraine',
+    location: 'Zaandam, Oekraïense Club (Rozengracht 6-8)',
+    time: 'Time: 18:00',
+    infoLink: 'https://www.instagram.com/p/C3KNtSftpWC/'
+  },
+  {
     date: '14',
     month: 'January 2024',
     title: 'Malanka',

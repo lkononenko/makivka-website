@@ -9,14 +9,6 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '24',
-    month: 'February',
-    title: 'Stand with Ukraine',
-    location: 'Zaandam, Oekraïense Club (Rozengracht 6-8)',
-    time: 'Time: 18:00',
-    infoLink: 'https://www.instagram.com/p/C3KNtSftpWC/'
-  },
-  {
     date: '1',
     month: 'April',
     title: 'Oekraïense Passen',

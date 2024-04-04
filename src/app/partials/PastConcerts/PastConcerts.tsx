@@ -5,6 +5,14 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '1',
+    month: 'April',
+    title: 'Oekraïense Passen',
+    location: 'Spaarndam, Oude Kerk (Kerkplein 1)',
+    time: 'Start: 16.00, Open Doors: 15.30',
+    infoLink: 'https://www.vriendenoudekerk.nl/events/paasconcert-makivka-oekraiens-amsterdams-volksensemble/'
+  },
+  {
     date: '24',
     month: 'February',
     title: 'Stand with Ukraine',

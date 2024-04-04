@@ -9,15 +9,6 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '1',
-    month: 'April',
-    title: 'Oekraïense Passen',
-    location: 'Spaarndam, Oude Kerk (Kerkplein 1)',
-    time: 'Start: 16.00, Open Doors: 15.30',
-    desc: 'Tickets: SOON',
-    infoLink: ''
-  },
-  {
     date: '5',
     month: 'May',
     title: 'Ukrainian Easter with Makivka',

@@ -5,6 +5,15 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '6',
+    month: 'April',
+    title: 'Bewonersbijeenkomst - Oekraïne opvang EtBuut',
+    location: 'Zaandam (Parkstraat 72)',
+    time: 'Start: 16.30',
+    desc: '',
+    infoLink: ''
+  },
+  {
     date: '1',
     month: 'April',
     title: 'Oekraïense Passen',

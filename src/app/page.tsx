@@ -11,7 +11,7 @@ const upcomingConcerts = [
   {
     date: '5',
     month: 'May',
-    title: 'Vrije lente (Вільна весна)',
+    title: 'Vrije lente - Вільна весна',
     location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
     time: 'Start: 16.00',
     desc: 'Free entrance',

@@ -11,11 +11,11 @@ const upcomingConcerts = [
   {
     date: '5',
     month: 'May',
-    title: 'Ukrainian Easter with Makivka',
-    location: 'Amsterdam, Zuiderkerk (Zuiderkerkhof 72)',
-    time: 'Start: 14.00, Open Doors: 13.30',
-    desc: 'Tickets: SOON',
-    infoLink: ''
+    title: 'Vrije lente (Вільна весна)',
+    location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
+    time: 'Start: 16.00',
+    desc: 'Free entrance',
+    infoLink: 'https://www.keizersgrachtkerk.nl/vrijheidsmaaltijd2024'
   },
 ];
 

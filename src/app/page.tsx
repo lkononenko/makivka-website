@@ -9,13 +9,13 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '5',
-    month: 'May',
-    title: 'Vrije lente - Вільна весна',
-    location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
-    time: 'Start: 16.00',
+    date: '1',
+    month: 'June',
+    title: 'Korendag Schalkwijk Centrum',
+    location: 'Haarlem, Winkelcentrum Schalkwijk (Floridaplein 13)',
+    time: '12.00 - 12.20',
     desc: 'Free entrance',
-    infoLink: 'https://www.keizersgrachtkerk.nl/vrijheidsmaaltijd2024'
+    infoLink: 'https://centrumschalkwijk.nl/evenementen/korendag/'
   },
 ];
 

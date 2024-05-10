@@ -5,6 +5,15 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '5',
+    month: 'May',
+    title: 'Vrije lente - Вільна весна',
+    location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
+    time: 'Start: 16.00',
+    desc: 'Free entrance',
+    infoLink: 'https://www.keizersgrachtkerk.nl/vrijheidsmaaltijd2024'
+  },
+  {
     date: '6',
     month: 'April',
     title: 'Bewonersbijeenkomst - Oekraïne opvang EtBuut',

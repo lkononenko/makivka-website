@@ -5,6 +5,15 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '1',
+    month: 'June',
+    title: 'Korendag Schalkwijk Centrum',
+    location: 'Haarlem, Winkelcentrum Schalkwijk (Floridaplein 13)',
+    time: '12.00 - 12.20',
+    desc: 'Free entrance',
+    infoLink: 'https://centrumschalkwijk.nl/evenementen/korendag/'
+  },
+  {
     date: '5',
     month: 'May',
     title: 'Vrije lente - Вільна весна',

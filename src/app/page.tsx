@@ -9,13 +9,31 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '1',
-    month: 'June',
-    title: 'Korendag Schalkwijk Centrum',
-    location: 'Haarlem, Winkelcentrum Schalkwijk (Floridaplein 13)',
-    time: '12.00 - 12.20',
-    desc: 'Free entrance',
-    infoLink: 'https://centrumschalkwijk.nl/evenementen/korendag/'
+    date: '15',
+    month: 'September',
+    title: 'Korenlint',
+    location: 'Haarlem',
+    time: '13.20 - 13.40 - PHIL - Kleine Zaal (Lange Begijnestraat 11)',
+    desc: '16.10 - 16.30 - Stedelijk Gymnasium (Jacobijnestraat 24)',
+    infoLink: 'https://www.korenlint.nl/profiel/makivka'
+  },
+  {
+    date: '22',
+    month: 'September',
+    title: 'Exhibition "The House of Polina Rayko. Disappearing"',
+    location: 'Amsterdam, Zaventemweg 81',
+    time: 'Start: 16.00',
+    desc: '',
+    infoLink: 'https://www.instagram.com/p/C-c7IddM3O9/?igsh=MXdzY3JseHJ0NmxsMg=='
+  },
+  {
+    date: '2',
+    month: 'November',
+    title: 'Spiritual performance at the exhibition "Bezielende Ontmoetingen"',
+    location: 'Haarlem, St.-Bavokerk',
+    time: '15.00 and 16.00',
+    desc: '',
+    infoLink: 'https://www.matthijs-wils.nl'
   },
 ];
 

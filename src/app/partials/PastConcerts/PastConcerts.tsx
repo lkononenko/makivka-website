@@ -5,6 +5,15 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '2',
+    month: 'November',
+    title: 'Spiritual performance at the exhibition "Bezielende Ontmoetingen"',
+    location: 'Haarlem, St.-Bavokerk',
+    time: '15.00 and 16.00',
+    desc: '',
+    infoLink: 'https://www.matthijs-wils.nl'
+  },
+  {
     date: '22',
     month: 'September',
     title: 'Exhibition "The House of Polina Rayko. Disappearing"',

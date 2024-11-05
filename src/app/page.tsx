@@ -9,13 +9,40 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '2',
+    date: '24',
+    month: 'November',
+    title: 'Ukrainian Christmas',
+    location: 'Spaarndam, Oude Kerk (Kerkplein 1)',
+    time: 'Start: 16.00, Open Doors: 15.30',
+    desc: '',
+    infoLink: 'https://www.vriendenoudekerk.nl/events/makivka-oekraiens-vrouwen-acapella-koor/'
+  },
+  {
+    date: '30',
     month: 'November',
     title: 'Spiritual performance at the exhibition "Bezielende Ontmoetingen"',
     location: 'Haarlem, St.-Bavokerk',
-    time: '15.00 and 16.00',
+    time: 'Start: 15.00 and 16.00',
     desc: '',
     infoLink: 'https://www.matthijs-wils.nl'
+  },
+  {
+    date: '7',
+    month: 'January',
+    title: 'Middag programma, Ukrainian spiritual music',
+    location: 'Haarlem, St.-Bavokerk',
+    time: 'Start: 14.45',
+    desc: '',
+    infoLink: ''
+  },
+  {
+    date: '14',
+    month: 'January',
+    title: 'Ukrainian Christmas & Market with Makivka',
+    location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
+    time: 'Start: 19.00, Open Doors: 18.30',
+    desc: '',
+    infoLink: 'https://www.keizersgrachtkerk.nl/activiteiten/agenda/concert-koor-makivka-oekraine'
   },
 ];
 

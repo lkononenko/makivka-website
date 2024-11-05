@@ -28,7 +28,7 @@ const upcomingConcerts = [
   },
   {
     date: '7',
-    month: 'January',
+    month: 'December',
     title: 'Middag programma, Ukrainian spiritual music',
     location: 'Haarlem, St.-Bavokerk',
     time: 'Start: 14.45',
@@ -37,7 +37,7 @@ const upcomingConcerts = [
   },
   {
     date: '14',
-    month: 'January',
+    month: 'December',
     title: 'Ukrainian Christmas & Market with Makivka',
     location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
     time: 'Start: 19.00, Open Doors: 18.30',

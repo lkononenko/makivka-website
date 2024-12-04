@@ -5,6 +5,24 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '30',
+    month: 'November',
+    title: 'Spiritual performance at the exhibition "Bezielende Ontmoetingen"',
+    location: 'Haarlem, St.-Bavokerk',
+    time: 'Start: 15.00 and 16.00',
+    desc: '',
+    infoLink: 'https://www.matthijs-wils.nl'
+  },
+  {
+    date: '24',
+    month: 'November',
+    title: 'Ukrainian Christmas',
+    location: 'Spaarndam, Oude Kerk (Kerkplein 1)',
+    time: 'Start: 16.00, Open Doors: 15.30',
+    desc: '',
+    infoLink: 'https://www.vriendenoudekerk.nl/events/makivka-oekraiens-vrouwen-acapella-koor/'
+  },
+  {
     date: '2',
     month: 'November',
     title: 'Spiritual performance at the exhibition "Bezielende Ontmoetingen"',

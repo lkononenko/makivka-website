@@ -9,15 +9,6 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '7',
-    month: 'December',
-    title: 'Middag programma, Ukrainian spiritual music',
-    location: 'Haarlem, St.-Bavokerk',
-    time: 'Start: 14.45',
-    desc: '',
-    infoLink: ''
-  },
-  {
     date: '14',
     month: 'December',
     title: 'Ukrainian Christmas & Market with Makivka',

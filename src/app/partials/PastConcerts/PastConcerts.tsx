@@ -5,6 +5,15 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '7',
+    month: 'December',
+    title: 'Middag programma, Ukrainian spiritual music',
+    location: 'Haarlem, St.-Bavokerk',
+    time: 'Start: 14.45',
+    desc: '',
+    infoLink: ''
+  },
+  {
     date: '30',
     month: 'November',
     title: 'Spiritual performance at the exhibition "Bezielende Ontmoetingen"',

@@ -7,17 +7,17 @@ import { Team } from './partials/Team/Team'
 import { AgendaItem, IAgendaItem } from './components/AgendaItem/AgendaItem'
 import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
-const upcomingConcerts = [
-  {
-    date: '14',
-    month: 'December',
-    title: 'Ukrainian Christmas & Market with Makivka',
-    location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
-    time: 'Start: 19.00, Open Doors: 18.30',
-    desc: '',
-    infoLink: 'https://www.keizersgrachtkerk.nl/activiteiten/agenda/concert-koor-makivka-oekraine'
-  },
-];
+// const upcomingConcerts = [
+//   {
+//     date: '14',
+//     month: 'December',
+//     title: 'Ukrainian Christmas & Market with Makivka',
+//     location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
+//     time: 'Start: 19.00, Open Doors: 18.30',
+//     desc: '',
+//     infoLink: 'https://www.keizersgrachtkerk.nl/activiteiten/agenda/concert-koor-makivka-oekraine'
+//   },
+// ];
 
 export default function Home() {
   return (
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
         </Section>
         <Section bgColor="bg-secondary" id="agenda">
-          <AnimatedTitle>Upcoming Concerts</AnimatedTitle>
+          {/* <AnimatedTitle>Upcoming Concerts</AnimatedTitle>
           <div className='mb-12'>
             {upcomingConcerts.map((concert: IAgendaItem, index: number) => (
               <AgendaItem
@@ -70,7 +70,7 @@ export default function Home() {
                 infoLink={concert.infoLink ? concert.infoLink : undefined}
               />
             ))}
-          </div>
+          </div> */}
           <AnimatedTitle>Past Concerts</AnimatedTitle>
           <PastConcerts />
         </Section>
@@ -79,16 +79,11 @@ export default function Home() {
           <Team />
         </Section>
         <Section bgColor="bg-secondary" id="contact-us">
-          <AnimatedTitle>Contact Us</AnimatedTitle>
+          <AnimatedTitle>Contacts</AnimatedTitle>
           <div className="text-white">
-            {/* <Image
-              src={`/icons/gmail.svg`}
-              alt="Gmail"
-              width="25"
-              height="25"
-            /> */}
-            <p><span className="text-primary font-light">Email:</span> <a href="mailto:makivka.amsterdam@gmail.com" target="_blank">makivka.amsterdam@gmail.com</a></p>
-            <p><span className="text-primary font-light">Instagram:</span> <a href="https://www.instagram.com/makivka_amsterdam/" target='_blank'>makivka_amsterdam</a></p>
+            <p><a href="https://www.instagram.com/makivka_amsterdam/" target='_blank'><span className="text-primary font-light">Instagram:</span> makivka_amsterdam</a></p>
+            <p><a href="https://www.youtube.com/@makivka_amsterdam" target='_blank'><span className="text-primary font-light">YouTube:</span> makivka_amsterdam</a></p>
+            <p><a href="mailto:makivka.amsterdam@gmail.com" target="_blank"><span className="text-primary font-light">Email:</span> makivka.amsterdam@gmail.com</a></p>
           </div>
         </Section>
         {/* <Section bgColor="bg-accent">

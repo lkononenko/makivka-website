@@ -5,6 +5,24 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '21',
+    month: 'December',
+    title: 'RIZDVO',
+    location: 'Amsterdam, OBA Oosterdok',
+    time: '15:30 - 16:00',
+    desc: '',
+    infoLink: 'https://www.instagram.com/p/DDq8LkRtjMn/'
+  },
+  {
+    date: '14',
+    month: 'December',
+    title: 'Ukrainian Christmas & Market with Makivka',
+    location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
+    time: 'Start: 19.00, Open Doors: 18.30',
+    desc: '',
+    infoLink: 'https://www.keizersgrachtkerk.nl/activiteiten/agenda/concert-koor-makivka-oekraine'
+  },
+  {
     date: '7',
     month: 'December',
     title: 'Middag programma, Ukrainian spiritual music',

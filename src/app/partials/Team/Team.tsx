@@ -45,12 +45,6 @@ const teamMembers = [
     instagram: 'modernfairylifestyle',
   },
   {
-    image: 'liubov.jpeg',
-    name: 'Liubov Kononenko',
-    desc: 'Alto',
-    instagram: 'liubov_kononenko',
-  },
-  {
     image: 'kateryna.jpeg',
     name: 'Kateryna Polishchuk',
     desc: 'Alto',

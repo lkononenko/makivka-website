@@ -9,22 +9,13 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '21',
-    month: 'April',
-    title: 'Easter with SVOI',
-    location: 'Oranjekerk, Amsterdam',
-    time: 'Start: 17:00',
-    desc: ''
-    // infoLink: 'https://www.keizersgrachtkerk.nl/activiteiten/agenda/concert-koor-makivka-oekraine'
-  },
-  {
     date: '18',
     month: 'May',
     title: 'Ukrainian spring with Makivka!',
     location: 'Keizersgrachtkerk, Amsterdam',
     time: 'Start: 15:00',
-    desc: ''
-    // infoLink: 'https://www.keizersgrachtkerk.nl/activiteiten/agenda/concert-koor-makivka-oekraine'
+    desc: '',
+    infoLink: 'https://www.eventbrite.com/e/tickets-makivka-lente-concert-1330735819659?aff=oddtdtcreator'
   },
 ];
 

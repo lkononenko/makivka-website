@@ -6,6 +6,14 @@ import React, { FC } from 'react';
 const pastConcerts = [
   {
     date: '21',
+    month: 'April',
+    title: 'Easter with SVOI',
+    location: 'Oranjekerk, Amsterdam',
+    time: 'Start: 17:00',
+    desc: ''
+  },
+  {
+    date: '21',
     month: 'December',
     title: 'RIZDVO',
     location: 'Amsterdam, OBA Oosterdok',

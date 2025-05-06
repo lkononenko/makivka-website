@@ -13,8 +13,8 @@ const upcomingConcerts = [
     month: 'May',
     title: 'Ukrainian spring with Makivka!',
     location: 'Keizersgrachtkerk, Amsterdam',
-    time: 'Start: 15:00',
-    desc: '',
+    time: '15:00 - 16:00',
+    desc: 'Open Doors: 14:30',
     infoLink: 'https://www.eventbrite.com/e/tickets-makivka-lente-concert-1330735819659?aff=oddtdtcreator'
   },
 ];

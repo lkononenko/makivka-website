@@ -39,6 +39,12 @@ const teamMembers = [
     instagram: 'julievanrhoads',
   },
   {
+    image: 'iryna.jpeg',
+    name: 'Iryna Garkushyna',
+    desc: 'Mezzo-soprano',
+    instagram: '',
+  },
+  {
     image: 'kristina.jpeg',
     name: 'Kristina Petrushevska',
     desc: 'Alto',
@@ -51,16 +57,16 @@ const teamMembers = [
     instagram: 'kate.po.li',
   },
   {
+    image: 'anna.jpg',
+    name: 'Anna',
+    desc: 'Alto',
+    instagram: '',
+  },
+  {
     image: 'marichka.jpeg',
     name: 'Marichka Rozhchuk',
     desc: 'Contralto',
     instagram: 'rozmaire42',
-  },
-  {
-    image: 'iryna.jpeg',
-    name: 'Iryna Garkushyna',
-    desc: 'Mezzo-soprano',
-    instagram: '',
   },
 ]
 export const Team: FC = () => {

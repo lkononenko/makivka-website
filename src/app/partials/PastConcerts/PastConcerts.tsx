@@ -5,8 +5,17 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '18',
+    month: 'May 2025',
+    title: 'Ukrainian spring with Makivka!',
+    location: 'Keizersgrachtkerk, Amsterdam',
+    time: '15:00 - 16:00',
+    desc: 'Open Doors: 14:30',
+    infoLink: 'https://www.eventbrite.com/e/tickets-makivka-lente-concert-1330735819659?aff=oddtdtcreator'
+  },
+  {
     date: '21',
-    month: 'April',
+    month: 'April 2025',
     title: 'Easter with SVOI',
     location: 'Oranjekerk, Amsterdam',
     time: 'Start: 17:00',
@@ -14,7 +23,7 @@ const pastConcerts = [
   },
   {
     date: '21',
-    month: 'December',
+    month: 'December 2024',
     title: 'RIZDVO',
     location: 'Amsterdam, OBA Oosterdok',
     time: '15:30 - 16:00',
@@ -23,7 +32,7 @@ const pastConcerts = [
   },
   {
     date: '14',
-    month: 'December',
+    month: 'December 2024',
     title: 'Ukrainian Christmas & Market with Makivka',
     location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
     time: 'Start: 19.00, Open Doors: 18.30',
@@ -32,7 +41,7 @@ const pastConcerts = [
   },
   {
     date: '7',
-    month: 'December',
+    month: 'December 2024',
     title: 'Middag programma, Ukrainian spiritual music',
     location: 'Haarlem, St.-Bavokerk',
     time: 'Start: 14.45',
@@ -41,7 +50,7 @@ const pastConcerts = [
   },
   {
     date: '30',
-    month: 'November',
+    month: 'November 2024',
     title: 'Spiritual performance at the exhibition "Bezielende Ontmoetingen"',
     location: 'Haarlem, St.-Bavokerk',
     time: 'Start: 15.00 and 16.00',
@@ -50,7 +59,7 @@ const pastConcerts = [
   },
   {
     date: '24',
-    month: 'November',
+    month: 'November 2024',
     title: 'Ukrainian Christmas',
     location: 'Spaarndam, Oude Kerk (Kerkplein 1)',
     time: 'Start: 16.00, Open Doors: 15.30',
@@ -59,7 +68,7 @@ const pastConcerts = [
   },
   {
     date: '2',
-    month: 'November',
+    month: 'November 2024',
     title: 'Spiritual performance at the exhibition "Bezielende Ontmoetingen"',
     location: 'Haarlem, St.-Bavokerk',
     time: '15.00 and 16.00',
@@ -68,7 +77,7 @@ const pastConcerts = [
   },
   {
     date: '22',
-    month: 'September',
+    month: 'September 2024',
     title: 'Exhibition "The House of Polina Rayko. Disappearing"',
     location: 'Amsterdam, Zaventemweg 81',
     time: 'Start: 16.00',
@@ -77,7 +86,7 @@ const pastConcerts = [
   },
   {
     date: '15',
-    month: 'September',
+    month: 'September 2024',
     title: 'Korenlint',
     location: 'Haarlem',
     time: '13.20 - 13.40 - PHIL - Kleine Zaal (Lange Begijnestraat 11)',
@@ -86,7 +95,7 @@ const pastConcerts = [
   },
   {
     date: '1',
-    month: 'June',
+    month: 'June 2024',
     title: 'Korendag Schalkwijk Centrum',
     location: 'Haarlem, Winkelcentrum Schalkwijk (Floridaplein 13)',
     time: '12.00 - 12.20',
@@ -95,7 +104,7 @@ const pastConcerts = [
   },
   {
     date: '5',
-    month: 'May',
+    month: 'May 2024',
     title: 'Vrije lente - Вільна весна',
     location: 'Amsterdam, Keizersgrachtkerk (Keizersgracht 566)',
     time: 'Start: 16.00',
@@ -104,7 +113,7 @@ const pastConcerts = [
   },
   {
     date: '6',
-    month: 'April',
+    month: 'April 2024',
     title: 'Bewonersbijeenkomst - Oekraïne opvang EtBuut',
     location: 'Zaandam (Parkstraat 72)',
     time: 'Start: 16.30',
@@ -113,7 +122,7 @@ const pastConcerts = [
   },
   {
     date: '1',
-    month: 'April',
+    month: 'April 2024',
     title: 'Oekraïense Passen',
     location: 'Spaarndam, Oude Kerk (Kerkplein 1)',
     time: 'Start: 16.00, Open Doors: 15.30',
@@ -121,7 +130,7 @@ const pastConcerts = [
   },
   {
     date: '24',
-    month: 'February',
+    month: 'February 2024',
     title: 'Stand with Ukraine',
     location: 'Zaandam, Oekraïense Club (Rozengracht 6-8)',
     time: 'Time: 18:00',

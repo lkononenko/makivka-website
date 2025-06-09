@@ -7,17 +7,17 @@ import { Team } from './partials/Team/Team'
 import { AgendaItem, IAgendaItem } from './components/AgendaItem/AgendaItem'
 import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
-const upcomingConcerts = [
-  {
-    date: '18',
-    month: 'May',
-    title: 'Ukrainian spring with Makivka!',
-    location: 'Keizersgrachtkerk, Amsterdam',
-    time: '15:00 - 16:00',
-    desc: 'Open Doors: 14:30',
-    infoLink: 'https://www.eventbrite.com/e/tickets-makivka-lente-concert-1330735819659?aff=oddtdtcreator'
-  },
-];
+// const upcomingConcerts = [
+//   {
+//     date: '18',
+//     month: 'May',
+//     title: 'Ukrainian spring with Makivka!',
+//     location: 'Keizersgrachtkerk, Amsterdam',
+//     time: '15:00 - 16:00',
+//     desc: 'Open Doors: 14:30',
+//     infoLink: 'https://www.eventbrite.com/e/tickets-makivka-lente-concert-1330735819659?aff=oddtdtcreator'
+//   },
+// ];
 
 export default function Home() {
   return (
@@ -56,7 +56,7 @@ export default function Home() {
             </div>
         </Section>
         <Section bgColor="bg-secondary" id="agenda">
-          <AnimatedTitle>Upcoming Concerts</AnimatedTitle>
+          {/* <AnimatedTitle>Upcoming Concerts</AnimatedTitle>
           <div className='mb-12'>
             {upcomingConcerts.map((concert: IAgendaItem, index: number) => (
               <AgendaItem
@@ -70,7 +70,7 @@ export default function Home() {
                 infoLink={concert.infoLink ? concert.infoLink : undefined}
               />
             ))}
-          </div>
+          </div> */}
           <AnimatedTitle>Past Concerts</AnimatedTitle>
           <PastConcerts />
         </Section>

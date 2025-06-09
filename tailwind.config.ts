@@ -22,8 +22,8 @@ const config: Config = {
       //     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       // },
       fontFamily: {
-        main: ['var(--font-main)'],
-        cursive: ['var(--font-cursive)'],
+        main: ['var(--font-main)', 'sans-serif'],
+        cursive: ['var(--font-cursive)', 'cursive'],
       },
     },
   },

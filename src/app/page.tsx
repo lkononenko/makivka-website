@@ -14,8 +14,8 @@ const upcomingConcerts = [
     title: 'Ukrainian Christmas with Makivka',
     location: 'Keizersgrachtkerk, Amsterdam',
     time: '15:00 - 16:00',
-    desc: 'Open Doors: 14:30'
-    // infoLink: ''
+    desc: 'Open Doors: 14:30',
+    infoLink: 'https://www.eventbrite.com/e/ukrainian-christmas-in-amsterdam-tickets-1841853215549?aff=oddtdtcreator'
   },
 ];
 

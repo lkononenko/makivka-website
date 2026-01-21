@@ -5,6 +5,14 @@ import React, { FC } from 'react';
 
 const pastConcerts = [
   {
+    date: '6',
+    month: 'December',
+    title: 'Ukrainian Christmas with Makivka',
+    location: 'Keizersgrachtkerk, Amsterdam',
+    time: '15:00 - 16:00',
+    infoLink: 'https://www.eventbrite.com/e/ukrainian-christmas-in-amsterdam-tickets-1841853215549?aff=oddtdtcreator'
+  },
+  {
     date: '18',
     month: 'May 2025',
     title: 'Ukrainian spring with Makivka!',

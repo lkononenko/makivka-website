@@ -6,6 +6,13 @@ import React, { FC } from 'react';
 const pastConcerts = [
   {
     date: '6',
+    month: 'April',
+    title: 'Ukrainian spring with Makivka',
+    location: 'Keizersgrachtkerk, Amsterdam',
+    time: '15:00 - 16:00'
+  },
+  {
+    date: '6',
     month: 'December',
     title: 'Ukrainian Christmas with Makivka',
     location: 'Keizersgrachtkerk, Amsterdam',

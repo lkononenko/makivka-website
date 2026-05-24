@@ -6,6 +6,14 @@ import React, { FC } from 'react';
 const pastConcerts = [
   {
     date: '6',
+    month: 'June',
+    title: 'Rusali',
+    location: 'Tolhuistuin - Tuinhuis (Tolhuisweg 3), Amsterdam',
+    time: '18:00 - 21:00',
+    infoLink: 'https://tolhuistuin.nl/evenementen/rusali'
+  },
+  {
+    date: '6',
     month: 'April',
     title: 'Ukrainian spring with Makivka',
     location: 'Keizersgrachtkerk, Amsterdam',

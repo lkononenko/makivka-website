@@ -9,13 +9,13 @@ import { PastConcerts } from './partials/PastConcerts/PastConcerts'
 
 const upcomingConcerts = [
   {
-    date: '6',
-    month: 'June',
-    title: 'Rusali',
-    location: 'Tolhuistuin - Tuinhuis (Tolhuisweg 3), Amsterdam',
-    time: '18:00 - 21:00',
-    // desc: 'Open Doors: 14:30',
-    infoLink: 'https://tolhuistuin.nl/evenementen/rusali'
+    date: '5',
+    month: 'December',
+    title: 'Oekraïense Kerst',
+    location: 'Keizersgrachtkerk, Amsterdam',
+    time: '15:30 - 18:00',
+    desc: 'Concert: 16:00 - 17:00',
+    infoLink: 'https://www.eventbrite.nl/e/oekraiense-kerst-tickets-2003495331469'
   },
 ];
 
